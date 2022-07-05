@@ -3,7 +3,7 @@ DROP DATABASE   /*!32312 IF EXISTS*/ Northwind;
 CREATE DATABASE Northwind  CHAR SET utf8 COLLATE utf8_bin ; 
 
 
-USE PnP_HR;
+USE Northwind;
 
 CREATE TABLE Category (
   categoryId INT AUTO_INCREMENT NOT NULL
